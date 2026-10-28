@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none">
+  <defs>
+    <linearGradient id="cilaaa-group-grad" x1="2" y1="2" x2="22" y2="22" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#a855f7"/>
+      <stop offset="100%" stop-color="#ec4899"/>
+    </linearGradient>
+  </defs>
+  <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" stroke="url(#cilaaa-group-grad)" stroke-width="1.8" stroke-linecap="round"/>
+  <circle cx="9" cy="7" r="4" stroke="url(#cilaaa-group-grad)" stroke-width="1.8"/>
+  <path d="M22 21v-2a4 4 0 0 0-3-3.87" stroke="url(#cilaaa-group-grad)" stroke-width="1.8" stroke-linecap="round"/>
+  <path d="M16 3.13a4 4 0 0 1 0 7.75" stroke="url(#cilaaa-group-grad)" stroke-width="1.8" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,4 @@
+{
+  "$comment": "This file is a mirror of plans.config.json for convenience. You can edit plans.config.json directly or here.",
+  "referTo": "./plans.config.json"
+}

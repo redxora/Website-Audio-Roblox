@@ -1,0 +1,46 @@
+.text-loop {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  user-select: none;
+}
+
+.text-loop--draggable {
+  cursor: grab;
+  touch-action: pan-y;
+}
+
+.text-loop--draggable:active {
+  cursor: grabbing;
+}
+
+.text-loop-svg {
+  display: block;
+  width: 100%;
+  height: auto;
+  overflow: visible;
+}
+
+.text-loop-text {
+  user-select: none;
+  font-family: inherit;
+}
+
+.text-loop-measure {
+  visibility: hidden;
+  pointer-events: none;
+}
+
+/* Discord avatar and chip styling inside SVG loop */
+.text-loop-avatar-circle {
+  transition: transform 0.2s ease, stroke 0.2s ease;
+}
+
+.text-loop-chip {
+  cursor: pointer;
+}
+
+.text-loop-chip:hover .text-loop-avatar-circle {
+  stroke: #00f0ff !important;
+  filter: drop-shadow(0 0 6px rgba(0, 240, 255, 0.6));
+}

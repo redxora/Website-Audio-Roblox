@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none">
+  <defs>
+    <linearGradient id="lightning-grad" x1="4" y1="2" x2="20" y2="22" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="40%" stop-color="#6366f1"/>
+      <stop offset="100%" stop-color="#ec4899"/>
+    </linearGradient>
+    <linearGradient id="lightning-core" x1="7" y1="3" x2="17" y2="21" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="60%" stop-color="#a5f3fc"/>
+      <stop offset="100%" stop-color="#818cf8"/>
+    </linearGradient>
+    <filter id="lightning-glow" x="-25%" y="-25%" width="150%" height="150%">
+      <feDropShadow dx="0" dy="0" stdDeviation="2" flood-color="#38bdf8" flood-opacity="0.6"/>
+    </filter>
+  </defs>
+  <path d="M13 2L4 13.5H11.5L9.5 22L20 9.5H12.5L14.5 2H13Z" fill="url(#lightning-grad)" filter="url(#lightning-glow)"/>
+  <path d="M12.8 4L6.5 12.5H11.8L10.5 19L17.5 10.5H12.2L13.8 4H12.8Z" fill="url(#lightning-core)" opacity="0.85"/>
+</svg>

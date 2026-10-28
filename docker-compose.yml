@@ -1,0 +1,34 @@
+ 
+services:
+  web:
+    build: .
+    container_name: cilaaa-web
+    restart: unless-stopped
+    env_file: .env
+    environment:
+      NODE_ENV: production
+      PORT: "3000"
+      HOSTNAME: 0.0.0.0 
+    ports:
+      - "127.0.0.1:3000:3000" 
+    tmpfs:
+      - /tmp/cilaaa:size=256m
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+  bot:
+    build: .
+    container_name: cilaaa-bot
+    restart: unless-stopped
+    env_file: .env
+    command: ["node", "bot/index.js"]
+    depends_on:
+      - web
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"

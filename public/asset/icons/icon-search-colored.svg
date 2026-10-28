@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none">
+  <defs>
+    <linearGradient id="srch-grad" x1="3" y1="3" x2="21" y2="21" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#ec4899"/>
+      <stop offset="50%" stop-color="#a855f7"/>
+      <stop offset="100%" stop-color="#38bdf8"/>
+    </linearGradient>
+    <filter id="srch-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="1" stdDeviation="1.2" flood-color="#ec4899" flood-opacity="0.4"/>
+    </filter>
+  </defs>
+  <circle cx="10.5" cy="10.5" r="6.5" stroke="url(#srch-grad)" stroke-width="2.4" filter="url(#srch-glow)"/>
+  <path d="M15.5 15.5L20.5 20.5" stroke="url(#srch-grad)" stroke-width="2.6" stroke-linecap="round" filter="url(#srch-glow)"/>
+  <circle cx="8" cy="8" r="1.2" fill="#ffffff" opacity="0.75"/>
+</svg>

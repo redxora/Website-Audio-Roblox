@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none">
+  <defs>
+    <linearGradient id="party-cone" x1="2" y1="14" x2="10" y2="22" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#fbbf24"/>
+      <stop offset="50%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#d97706"/>
+    </linearGradient>
+  </defs>
+  <path d="M3 21L12 15L9 9L3 21Z" fill="url(#party-cone)"/>
+  <path d="M4.5 19L9.5 13.5" stroke="#ffffff" stroke-width="1.2"/>
+  <path d="M6.5 16L10.5 11.5" stroke="#ffffff" stroke-width="1.2"/>
+  <path d="M14 8C16 6 18 8 20 6" stroke="#ec4899" stroke-width="1.8" stroke-linecap="round"/>
+  <path d="M11 5C13 3 15 5 17 3" stroke="#06b6d4" stroke-width="1.8" stroke-linecap="round"/>
+  <circle cx="19" cy="11" r="1.5" fill="#10b981"/>
+  <circle cx="13" cy="2" r="1.2" fill="#a855f7"/>
+  <circle cx="21" cy="4" r="1" fill="#f59e0b"/>
+  <path d="M17 14L18 16L20 15L18.5 13.5L17 14Z" fill="#f43f5e"/>
+</svg>

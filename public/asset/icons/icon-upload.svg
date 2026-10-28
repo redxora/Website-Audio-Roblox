@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none">
+  <defs>
+    <linearGradient id="cilaaa-upl-grad" x1="2" y1="2" x2="22" y2="22" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#3b82f6"/>
+      <stop offset="100%" stop-color="#8b5cf6"/>
+    </linearGradient>
+  </defs>
+  <path d="M4 16.2A4.8 4.8 0 0 1 8 8a6 6 0 0 1 11.5 2 4.2 4.2 0 0 1 .5 8.2" stroke="url(#cilaaa-upl-grad)" stroke-width="2" stroke-linecap="round"/>
+  <path d="M12 12V21M12 12L8.5 15.5M12 12L15.5 15.5" stroke="url(#cilaaa-upl-grad)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

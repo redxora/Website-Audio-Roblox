@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none">
+  <defs>
+    <linearGradient id="cilaaa-spoofer-grad" x1="2" y1="2" x2="22" y2="22" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#f43f5e"/>
+      <stop offset="50%" stop-color="#ec4899"/>
+      <stop offset="100%" stop-color="#a855f7"/>
+    </linearGradient>
+  </defs>
+  <rect x="7" y="7" width="13" height="13" rx="3" stroke="url(#cilaaa-spoofer-grad)" stroke-width="2"/>
+  <path d="M4 16V6a2 2 0 0 1 2-2h10" stroke="url(#cilaaa-spoofer-grad)" stroke-width="1.8" stroke-linecap="round"/>
+  <path d="M10.5 13.5L12.5 15.5L16.5 11" stroke="url(#cilaaa-spoofer-grad)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

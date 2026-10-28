@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none">
+  <defs>
+    <linearGradient id="diamond-grad" x1="2" y1="3" x2="22" y2="21" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#bae6fd"/>
+      <stop offset="35%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#0284c7"/>
+    </linearGradient>
+    <linearGradient id="diamond-top" x1="6" y1="3" x2="18" y2="8" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#7dd3fc"/>
+    </linearGradient>
+    <filter id="diamond-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="1.5" stdDeviation="1.5" flood-color="#0284c7" flood-opacity="0.45"/>
+    </filter>
+  </defs>
+  <path d="M6 3H18L22 9L12 22L2 9L6 3Z" fill="url(#diamond-grad)" filter="url(#diamond-glow)"/>
+  <path d="M6 3L12 9L2 9L6 3Z" fill="rgba(255,255,255,0.4)"/>
+  <path d="M18 3L12 9L22 9L18 3Z" fill="rgba(255,255,255,0.25)"/>
+  <path d="M6 3H18L12 9L6 3Z" fill="url(#diamond-top)"/>
+  <path d="M12 9L12 22L7 9H12Z" fill="rgba(255,255,255,0.2)"/>
+  <path d="M12 9L12 22L17 9H12Z" fill="rgba(0,0,0,0.15)"/>
+</svg>

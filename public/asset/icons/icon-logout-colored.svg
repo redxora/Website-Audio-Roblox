@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none">
+  <defs>
+    <linearGradient id="lgo-grad" x1="3" y1="3" x2="21" y2="21" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#fb7185"/>
+      <stop offset="50%" stop-color="#f43f5e"/>
+      <stop offset="100%" stop-color="#e11d48"/>
+    </linearGradient>
+    <filter id="lgo-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="1" stdDeviation="1.2" flood-color="#f43f5e" flood-opacity="0.4"/>
+    </filter>
+  </defs>
+  <path d="M9 21H5C3.89543 21 3 20.1046 3 19V5C3 3.89543 3.89543 3 5 3H9" stroke="#94a3b8" stroke-width="2" stroke-linecap="round"/>
+  <path d="M16 17L21 12L16 7" stroke="url(#lgo-grad)" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" filter="url(#lgo-glow)"/>
+  <path d="M21 12H9" stroke="url(#lgo-grad)" stroke-width="2.2" stroke-linecap="round" filter="url(#lgo-glow)"/>
+</svg>

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none">
+  <defs>
+    <linearGradient id="mixer-fader" x1="0" y1="0" x2="24" y2="24" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#ec4899"/>
+      <stop offset="100%" stop-color="#8b5cf6"/>
+    </linearGradient>
+    <radialGradient id="knob-glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#f472b6"/>
+      <stop offset="70%" stop-color="#db2777"/>
+      <stop offset="100%" stop-color="#831843"/>
+    </radialGradient>
+  </defs>
+  <rect x="5.25" y="3" width="1.5" height="18" rx="0.75" fill="#334155"/>
+  <rect x="11.25" y="3" width="1.5" height="18" rx="0.75" fill="#334155"/>
+  <rect x="17.25" y="3" width="1.5" height="18" rx="0.75" fill="#334155"/>
+  <rect x="5.25" y="11" width="1.5" height="10" rx="0.75" fill="url(#mixer-fader)"/>
+  <rect x="11.25" y="7" width="1.5" height="14" rx="0.75" fill="url(#mixer-fader)"/>
+  <rect x="17.25" y="15" width="1.5" height="6" rx="0.75" fill="url(#mixer-fader)"/>
+  <circle cx="6" cy="11" r="3" fill="url(#knob-glow)" stroke="#ffffff" stroke-width="1"/>
+  <circle cx="12" cy="7" r="3" fill="url(#knob-glow)" stroke="#ffffff" stroke-width="1"/>
+  <circle cx="18" cy="15" r="3" fill="url(#knob-glow)" stroke="#ffffff" stroke-width="1"/>
+</svg>

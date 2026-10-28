@@ -1,0 +1,45 @@
+{
+  "name": "cilaaa-community-web",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "bot": "node bot/index.js",
+    "bot:register": "node bot/register-commands.js"
+  },
+  "engines": {
+    "node": ">=20.9.0"
+  },
+  "dependencies": {
+    "@audio-ui/core": "^0.17.0",
+    "@audio-ui/icons": "^0.2.0",
+    "@audio-ui/react": "^0.9.0",
+    "@radix-ui/react-slot": "^1.5.0",
+    "@types/gsap": "^1.20.2",
+    "better-sqlite3": "^13.0.3",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "discord.js": "^14.27.0",
+    "gsap": "^3.15.0",
+    "lamejs": "^1.2.1",
+    "lenis": "^1.3.27",
+    "lucide-react": "^1.61.0",
+    "motion": "^14.4.0",
+    "next": "^16.0.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "tailwind-merge": "^3.7.0"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^9.6.0",
+    "@types/node": "^22.15.0",
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.0",
+    "eslint": "^9.25.0",
+    "eslint-config-next": "^16.0.0",
+    "typescript": "^5.9.0"
+  }
+}

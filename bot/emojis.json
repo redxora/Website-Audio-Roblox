@@ -1,0 +1,157 @@
+{
+  "_comment": "Konfigurasi Custom Icon / Emoji & Banner Discord Bot Cilaaa Community. Isi id emoji Discord kamu di field 'id', atau biarkan kosong jika ingin memakai emoji bawaan (fallback).",
+  "branding": {
+    "botName": "Cilaaa Community",
+    "themeColor": 16737970,
+    "themeColorHex": "#FF66B2",
+    "successColor": 1095989,
+    "warningColor": 16096779,
+    "errorColor": 15682884,
+    "infoColor": 440020,
+    "bannerUrl": "https://media.discordapp.net/attachments/123456789/banner.png",
+    "footerText": "Cilaaa Community • Fast, Accurate & Professional",
+    "websiteUrl": "http://localhost:3000"
+  },
+  "emojis": {
+    "cilaaa": {
+      "id": "",
+      "name": "cilaaa",
+      "fallback": "🌸"
+    },
+    "sparkles": {
+      "id": "",
+      "name": "sparkles",
+      "fallback": "✨"
+    },
+    "verify": {
+      "id": "",
+      "name": "verify",
+      "fallback": "🛡️"
+    },
+    "success": {
+      "id": "",
+      "name": "success",
+      "fallback": "✅"
+    },
+    "error": {
+      "id": "",
+      "name": "error",
+      "fallback": "❌"
+    },
+    "warning": {
+      "id": "",
+      "name": "warning",
+      "fallback": "⚠️"
+    },
+    "loading": {
+      "id": "",
+      "name": "loading",
+      "fallback": "⏳"
+    },
+    "audio": {
+      "id": "",
+      "name": "audio",
+      "fallback": "🎵"
+    },
+    "roblox": {
+      "id": "",
+      "name": "roblox",
+      "fallback": "🎮"
+    },
+    "download": {
+      "id": "",
+      "name": "download",
+      "fallback": "📥"
+    },
+    "upload": {
+      "id": "",
+      "name": "upload",
+      "fallback": "📤"
+    },
+    "spoofer": {
+      "id": "",
+      "name": "spoofer",
+      "fallback": "🛡️"
+    },
+    "convert": {
+      "id": "",
+      "name": "convert",
+      "fallback": "⚡"
+    },
+    "speed": {
+      "id": "",
+      "name": "speed",
+      "fallback": "⏩"
+    },
+    "vip": {
+      "id": "",
+      "name": "vip",
+      "fallback": "👑"
+    },
+    "starter": {
+      "id": "",
+      "name": "starter",
+      "fallback": "⭐"
+    },
+    "pro": {
+      "id": "",
+      "name": "pro",
+      "fallback": "🔥"
+    },
+    "clock": {
+      "id": "",
+      "name": "clock",
+      "fallback": "⏱️"
+    },
+    "stats": {
+      "id": "",
+      "name": "stats",
+      "fallback": "📊"
+    },
+    "server": {
+      "id": "",
+      "name": "server",
+      "fallback": "🖥️"
+    },
+    "link": {
+      "id": "",
+      "name": "link",
+      "fallback": "🔗"
+    },
+    "diamond": {
+      "id": "",
+      "name": "diamond",
+      "fallback": "💎"
+    },
+    "animation": {
+      "id": "",
+      "name": "animation",
+      "fallback": "🎬"
+    },
+    "image": {
+      "id": "",
+      "name": "image",
+      "fallback": "🖼️"
+    },
+    "emote": {
+      "id": "",
+      "name": "emote",
+      "fallback": "🌐"
+    },
+    "gear": {
+      "id": "",
+      "name": "gear",
+      "fallback": "⚙️"
+    },
+    "history": {
+      "id": "",
+      "name": "history",
+      "fallback": "📜"
+    },
+    "pin": {
+      "id": "",
+      "name": "pin",
+      "fallback": "📌"
+    }
+  }
+}

@@ -1,0 +1,204 @@
+html,
+body,
+*,
+*::before,
+*::after {
+  cursor: url('/asset/Cursors/Senna%20Normal%20Select.png') 0 0, default;
+}
+
+a,
+a *,
+button,
+button *,
+[role="button"],
+[role="button"] *,
+[role="tab"],
+[role="tab"] *,
+[role="menuitem"],
+[role="menuitem"] *,
+label,
+label *,
+select,
+summary,
+[type="button"],
+[type="submit"],
+[type="reset"],
+[type="checkbox"],
+[type="radio"],
+[data-action],
+.btn,
+.clickable,
+[onclick] {
+  cursor: url('/asset/Cursors/Senna%20Link%20Select.png') 4 0, pointer !important;
+}
+
+input[type="text"],
+input[type="search"],
+input[type="url"],
+input[type="password"],
+input[type="email"],
+input[type="number"],
+input[type="tel"],
+textarea,
+[contenteditable="true"] {
+  cursor: url('/asset/Cursors/Senna%20Text.png') 16 16, text !important;
+}
+
+input[type="text"]:focus,
+input[type="search"]:focus,
+input[type="url"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+[contenteditable="true"]:focus {
+  cursor: url('/asset/Cursors/Senna%20Handwriting.png') 0 24, text !important;
+}
+
+input.is-composing,
+textarea.is-composing,
+.cursor-handwriting-anim,
+.is-typing {
+  cursor: url('/asset/Cursors/Senna%20Handwriting%202.gif') 0 24, text !important;
+}
+
+abbr,
+[data-tooltip],
+[title],
+.help-icon,
+[data-help],
+[aria-label*="help" i],
+[aria-label*="bantuan" i],
+[aria-label*="info" i] {
+  cursor: url('/asset/Cursors/Senna%20Help%20Select.png') 0 0, help !important;
+}
+
+:disabled,
+[disabled],
+[aria-disabled="true"],
+button:disabled,
+button:disabled *,
+input:disabled,
+textarea:disabled,
+select:disabled,
+.disabled,
+[data-disabled="true"],
+.interaction-root button:disabled {
+  cursor: url('/asset/Cursors/Senna%20Unvailable.png') 0 0, not-allowed !important;
+}
+
+[draggable="true"],
+[data-drag-handle],
+.drag-handle,
+[data-slot="slider-thumb"]:active {
+  cursor: url('/asset/Cursors/Senna%20Move%20Select.png') 16 16, move !important;
+}
+
+input[type="range"],
+input[type="range"]::-webkit-slider-thumb,
+input[type="range"]::-moz-range-thumb,
+canvas,
+.waveform,
+.audio-scrubber {
+  cursor: url('/asset/Cursors/Senna%20Precision%20Select.png') 16 16, crosshair !important;
+}
+
+[data-resize="vertical"],
+.resizer-v {
+  cursor: url('/asset/Cursors/Senna%20Vertical.png') 16 16, ns-resize !important;
+}
+
+[data-resize="horizontal"],
+.resizer-h {
+  cursor: url('/asset/Cursors/Senna%20Horizontal.png') 16 16, ew-resize !important;
+}
+
+[data-resize="diagonal-1"],
+.resizer-nwse {
+  cursor: url('/asset/Cursors/Senna%20Diagonal%201.png') 16 16, nwse-resize !important;
+}
+
+[data-resize="diagonal-2"],
+.resizer-nesw {
+  cursor: url('/asset/Cursors/Senna%20Diagonal%202.png') 16 16, nesw-resize !important;
+}
+
+[aria-busy="true"],
+.is-loading,
+.loading,
+.app-busy,
+[data-state="loading"] {
+  cursor: url('/asset/Cursors/Senna%20Alternate%20Select.gif') 0 0, wait !important;
+}
+
+.cursor-normal,
+.cursor-default {
+  cursor: url('/asset/Cursors/Senna%20Normal%20Select.png') 0 0, default !important;
+}
+
+.cursor-pointer,
+.cursor-link {
+  cursor: url('/asset/Cursors/Senna%20Link%20Select.png') 4 0, pointer !important;
+}
+
+.cursor-text {
+  cursor: url('/asset/Cursors/Senna%20Text.png') 16 16, text !important;
+}
+
+.cursor-handwriting {
+  cursor: url('/asset/Cursors/Senna%20Handwriting.png') 0 24, text !important;
+}
+
+.cursor-handwriting-anim,
+.cursor-handwriting-2 {
+  cursor: url('/asset/Cursors/Senna%20Handwriting%202.gif') 0 24, text !important;
+}
+
+.cursor-help {
+  cursor: url('/asset/Cursors/Senna%20Help%20Select.png') 0 0, help !important;
+}
+
+.cursor-unavailable,
+.cursor-not-allowed {
+  cursor: url('/asset/Cursors/Senna%20Unvailable.png') 0 0, not-allowed !important;
+}
+
+.cursor-move,
+.cursor-grab,
+.cursor-grabbing {
+  cursor: url('/asset/Cursors/Senna%20Move%20Select.png') 16 16, move !important;
+}
+
+.cursor-precision,
+.cursor-crosshair {
+  cursor: url('/asset/Cursors/Senna%20Precision%20Select.png') 16 16, crosshair !important;
+}
+
+.cursor-vertical,
+.cursor-ns-resize,
+.cursor-row-resize {
+  cursor: url('/asset/Cursors/Senna%20Vertical.png') 16 16, ns-resize !important;
+}
+
+.cursor-horizontal,
+.cursor-ew-resize,
+.cursor-col-resize {
+  cursor: url('/asset/Cursors/Senna%20Horizontal.png') 16 16, ew-resize !important;
+}
+
+.cursor-diagonal-1,
+.cursor-nwse-resize {
+  cursor: url('/asset/Cursors/Senna%20Diagonal%201.png') 16 16, nwse-resize !important;
+}
+
+.cursor-diagonal-2,
+.cursor-nesw-resize {
+  cursor: url('/asset/Cursors/Senna%20Diagonal%202.png') 16 16, nesw-resize !important;
+}
+
+.cursor-wait,
+.cursor-progress,
+.cursor-alternate {
+  cursor: url('/asset/Cursors/Senna%20Alternate%20Select.gif') 0 0, wait !important;
+}

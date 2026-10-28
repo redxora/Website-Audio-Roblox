@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none">
+  <defs>
+    <linearGradient id="cilaaa-rbx-grad" x1="3" y1="3" x2="21" y2="21" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#3b82f6"/>
+      <stop offset="100%" stop-color="#06b6d4"/>
+    </linearGradient>
+  </defs>
+  <!-- Roblox signature tilted square with modern central hollow core -->
+  <rect x="5.5" y="5.5" width="13" height="13" rx="2.5" transform="rotate(-15 12 12)" stroke="url(#cilaaa-rbx-grad)" stroke-width="2.2" fill="url(#cilaaa-rbx-grad)" fill-opacity="0.15"/>
+  <rect x="10" y="10" width="4" height="4" rx="1" transform="rotate(-15 12 12)" fill="url(#cilaaa-rbx-grad)"/>
+</svg>

@@ -1,0 +1,567 @@
+{
+  "plans": {
+    "free": {
+      "code": "free",
+      "label": "Free",
+      "nameId": "Gratis",
+      "nameEn": "Free",
+      "priceIdr": 0,
+      "priceFormatted": "Rp 0",
+      "durationDays": null,
+      "conversions24h": 5,
+      "spooferDownloads24h": 5,
+      "autoUploads24h": 5,
+      "maxFileSizeMb": 10,
+      "maxDurationSeconds": 600,
+      "maxBatch": 1,
+      "speedControl": true,
+      "speedRange": "0.25x hingga 4.0x",
+      "robloxGroupUpload": false,
+      "historyDays": 7,
+      "prioritySupport": false,
+      "badge": "FREE TIER",
+      "badgeBg": "bg-zinc-700 text-white",
+      "popular": false,
+      "iconSrc": "/saturn-assets/images/pricing/icon1.svg",
+      "descriptionId": "Akses gratis selamanya untuk mencoba fitur konversi dan spoofer dasar Cilaaa.",
+      "descriptionEn": "Forever free access to try basic audio spoofer and conversion tools.",
+      "periodTextId": "/ selamanya",
+      "periodTextEn": "/ forever",
+      "dailyRateTextId": "Rp 0 / gratis",
+      "dailyRateTextEn": "Rp 0 / free",
+      "featuresId": [
+        "Konversi Audio 5x per 24 jam",
+        "Batas ukuran file hingga 10 MB",
+        "Roblox Auto-Upload 5x per 24 jam",
+        "Audio Splitter Otomatis Dasar",
+        "Akses Audio Studio Dasar",
+        "Komunitas Discord Publik"
+      ],
+      "featuresEn": [
+        "5 Audio Conversions per 24h",
+        "Max file size up to 10 MB",
+        "5 Roblox Auto-Uploads per 24h",
+        "Basic Automatic Audio Splitter",
+        "Basic Audio Studio Tools",
+        "Public Discord Community"
+      ],
+      "featuresList": [
+        {
+          "textId": "5x Konversi Audio per 24 Jam",
+          "textEn": "5 Audio Conversions / 24h",
+          "included": true
+        },
+        {
+          "textId": "Roblox Auto-Upload 5x per 24 Jam",
+          "textEn": "Roblox Auto-Upload 5x / 24h",
+          "included": true
+        },
+        {
+          "textId": "Audio Splitter Otomatis Dasar",
+          "textEn": "Basic Audio Splitter",
+          "included": true
+        },
+        {
+          "textId": "Akses Komunitas Discord",
+          "textEn": "Discord Community Access",
+          "included": true
+        },
+        {
+          "textId": "Roblox Group Universe Upload",
+          "textEn": "Group Universe Upload",
+          "included": false
+        },
+        {
+          "textId": "Bulk Batch Conversions",
+          "textEn": "Bulk Batch Conversions",
+          "included": false
+        },
+        {
+          "textId": "Antrean Cepat Prioritas",
+          "textEn": "High-Speed Priority Queue",
+          "included": false
+        },
+        {
+          "textId": "Dedicated Support VIP 24/7",
+          "textEn": "24/7 Dedicated Support",
+          "included": false
+        }
+      ]
+    },
+    "daily": {
+      "code": "daily",
+      "label": "1 Day",
+      "nameId": "Starter (1 Day)",
+      "nameEn": "Starter (1 Day)",
+      "priceIdr": 15000,
+      "priceFormatted": "Rp 15.000",
+      "durationDays": 1,
+      "conversions24h": null,
+      "spooferDownloads24h": null,
+      "autoUploads24h": null,
+      "maxFileSizeMb": 20,
+      "maxDurationSeconds": 900,
+      "maxBatch": 1,
+      "speedControl": true,
+      "speedRange": "0.25x - 4.0x",
+      "robloxGroupUpload": true,
+      "historyDays": 7,
+      "prioritySupport": true,
+      "badge": "STARTER",
+      "badgeBg": "bg-indigo-500 text-white",
+      "popular": false,
+      "iconSrc": "/saturn-assets/images/pricing/icon1.svg",
+      "descriptionId": "Cocok untuk pembuatan dan convert audio harian tanpa batasan durasi 24 jam.",
+      "descriptionEn": "Perfect for daily audio creation and conversion with 24 hours access.",
+      "periodTextId": "/ hari",
+      "periodTextEn": "/ day",
+      "dailyRateTextId": "Rp 15.000 / hari",
+      "dailyRateTextEn": "Rp 15,000 / day",
+      "featuresId": [
+        "Konversi Audio Tanpa Batas (Fair-use)",
+        "Audio Splitter Otomatis (Part)",
+        "Roblox Auto-Upload Kredensial Langsung",
+        "Studio Audio Editor (EQ, Trim, Pitch)",
+        "Moderation Status Tracking",
+        "Role Starter di Server Discord"
+      ],
+      "featuresEn": [
+        "Audio Convert: Unlimited (Fair-use)",
+        "Automatic Audio Splitter (Parts)",
+        "Roblox Auto-Upload Direct Credentials",
+        "Studio Audio Editor (EQ, Trim, Pitch)",
+        "Moderation Status Tracking",
+        "Starter Role in Discord Server"
+      ],
+      "featuresList": [
+        {
+          "textId": "Konversi Audio Tanpa Batas (Fair-use)",
+          "textEn": "Unlimited Audio Conversions",
+          "included": true
+        },
+        {
+          "textId": "Roblox Auto-Upload Kredensial",
+          "textEn": "Direct Roblox Auto-Upload",
+          "included": true
+        },
+        {
+          "textId": "Audio Splitter & Studio Editor",
+          "textEn": "Audio Splitter & Studio Tools",
+          "included": true
+        },
+        {
+          "textId": "Role Starter di Discord Server",
+          "textEn": "Starter Role on Discord",
+          "included": true
+        },
+        {
+          "textId": "Roblox Group Universe Upload",
+          "textEn": "Group Universe Upload",
+          "included": true
+        },
+        {
+          "textId": "Bulk Batch Conversions Multi-Lagu",
+          "textEn": "Bulk Batch Conversions",
+          "included": false
+        },
+        {
+          "textId": "Dedicated High-Speed Queue",
+          "textEn": "Dedicated High-Speed Queue",
+          "included": false
+        },
+        {
+          "textId": "VIP 24/7 Dedicated Support",
+          "textEn": "24/7 VIP Dedicated Support",
+          "included": false
+        }
+      ]
+    },
+    "weekly": {
+      "code": "weekly",
+      "label": "7 Days",
+      "nameId": "Popular (7 Days)",
+      "nameEn": "Popular (7 Days)",
+      "priceIdr": 70000,
+      "priceFormatted": "Rp 70.000",
+      "durationDays": 7,
+      "conversions24h": null,
+      "spooferDownloads24h": null,
+      "autoUploads24h": null,
+      "maxFileSizeMb": 30,
+      "maxDurationSeconds": 1200,
+      "maxBatch": 10,
+      "speedControl": true,
+      "speedRange": "0.25x - 4.0x",
+      "robloxGroupUpload": true,
+      "historyDays": 14,
+      "prioritySupport": true,
+      "badge": "MOST POPULAR",
+      "badgeBg": "bg-emerald-500 text-white",
+      "popular": true,
+      "iconSrc": "/saturn-assets/images/pricing/icon3.svg",
+      "descriptionId": "Pilihan favorit kreator Roblox! Termasuk bulk convert 10x dan antrean prioritas.",
+      "descriptionEn": "Favorite choice for Roblox creators! Includes 10x bulk convert and priority queue.",
+      "periodTextId": "/ 7 hari",
+      "periodTextEn": "/ 7 days",
+      "dailyRateTextId": "Rp 10.000 / hari · Best Value",
+      "dailyRateTextEn": "Rp 10,000 / day · Best Value",
+      "featuresId": [
+        "Semua fitur paket 1 Day",
+        "10x Bulk Audio Conversions",
+        "Roblox Auto-Upload: User & Group Universe",
+        "Batch Audio Processing Cepat",
+        "Antrean Cepat Prioritas Komunitas",
+        "Role 7 Days di Server Discord"
+      ],
+      "featuresEn": [
+        "All 1 Day Plan features included",
+        "10x Bulk Audio Conversions",
+        "Roblox Auto-Upload: User & Group Universe",
+        "High-speed Batch Audio Processing",
+        "Fast Community Priority Queue",
+        "7 Days Role in Discord Server"
+      ],
+      "featuresList": [
+        {
+          "textId": "Semua Fitur Paket 1 Day",
+          "textEn": "All 1 Day Plan Features Included",
+          "included": true
+        },
+        {
+          "textId": "10x Bulk Batch Conversions Sekaligus",
+          "textEn": "10x Bulk Batch Conversions",
+          "included": true
+        },
+        {
+          "textId": "Roblox User & Group Universe Upload",
+          "textEn": "Roblox User & Group Upload",
+          "included": true
+        },
+        {
+          "textId": "Audio Splitter Multi-Part Otomatis",
+          "textEn": "Multi-Part Automatic Splitter",
+          "included": true
+        },
+        {
+          "textId": "Antrean Cepat Prioritas Komunitas",
+          "textEn": "Fast Community Priority Queue",
+          "included": true
+        },
+        {
+          "textId": "Role 7 Days di Server Discord",
+          "textEn": "7 Days Role in Discord Server",
+          "included": true
+        },
+        {
+          "textId": "Dedicated High-Speed Queue VIP",
+          "textEn": "Dedicated High-Speed VIP Queue",
+          "included": false
+        },
+        {
+          "textId": "One-to-One 24/7 VIP Support",
+          "textEn": "One-to-One 24/7 VIP Support",
+          "included": false
+        }
+      ]
+    },
+    "monthly": {
+      "code": "monthly",
+      "label": "30 Days",
+      "nameId": "Pro",
+      "nameEn": "Pro",
+      "priceIdr": 140000,
+      "priceFormatted": "Rp 140.000",
+      "durationDays": 30,
+      "conversions24h": null,
+      "spooferDownloads24h": null,
+      "autoUploads24h": null,
+      "maxFileSizeMb": 50,
+      "maxDurationSeconds": 1800,
+      "maxBatch": 50,
+      "speedControl": true,
+      "speedRange": "0.25x - 4.0x",
+      "robloxGroupUpload": true,
+      "historyDays": 30,
+      "prioritySupport": true,
+      "badge": "SAVE 47%",
+      "badgeBg": "bg-pink-500 text-white",
+      "popular": false,
+      "iconSrc": "/saturn-assets/images/pricing/icon3.svg",
+      "descriptionId": "Solusi hemat sebulan penuh untuk developer studio & agensi audio aktif.",
+      "descriptionEn": "Cost-effective monthly solution for active audio studios and developers.",
+      "periodTextId": "/ bulan",
+      "periodTextEn": "/ month",
+      "dailyRateTextId": "Rp 4.666 / hari · Paling Hemat",
+      "dailyRateTextEn": "Rp 4,666 / day · Save 47%",
+      "featuresId": [
+        "Semua fitur paket 7 Days",
+        "50x Bulk Audio Conversions",
+        "Roblox Auto-Upload ke Roblox Group Universe",
+        "Unlimited Audio Part Splitting",
+        "Dedicated High-speed Queue",
+        "Role 30 Days di Server Discord"
+      ],
+      "featuresEn": [
+        "All 7 Days Plan features included",
+        "50x Bulk Audio Conversions",
+        "Roblox Auto-Upload to Group Universe",
+        "Unlimited Audio Part Splitting",
+        "Dedicated High-speed Queue",
+        "30 Days Role in Discord Server"
+      ],
+      "featuresList": [
+        {
+          "textId": "Semua Fitur Paket 7 Days",
+          "textEn": "All 7 Days Plan Features",
+          "included": true
+        },
+        {
+          "textId": "50x Bulk Audio Conversions Sekaligus",
+          "textEn": "50x Bulk Audio Conversions",
+          "included": true
+        },
+        {
+          "textId": "Roblox Group Universe Upload Penuh",
+          "textEn": "Full Group Universe Upload",
+          "included": true
+        },
+        {
+          "textId": "Unlimited Audio Part Splitting",
+          "textEn": "Unlimited Audio Part Splitting",
+          "included": true
+        },
+        {
+          "textId": "Dedicated High-speed Queue Server",
+          "textEn": "Dedicated High-speed Queue",
+          "included": true
+        },
+        {
+          "textId": "Role 30 Days Eksklusif Discord",
+          "textEn": "Exclusive 30 Days Discord Role",
+          "included": true
+        },
+        {
+          "textId": "Prioritas Antrean Tertinggi",
+          "textEn": "Highest Priority Queue",
+          "included": true
+        },
+        {
+          "textId": "Dedicated Chat Support Langsung",
+          "textEn": "Dedicated Chat Support",
+          "included": true
+        }
+      ]
+    },
+    "lifetime": {
+      "code": "lifetime",
+      "label": "Lifetime",
+      "nameId": "Enterprise (Lifetime)",
+      "nameEn": "Enterprise (Lifetime)",
+      "priceIdr": 1000000,
+      "priceFormatted": "Rp 1.000.000",
+      "durationDays": null,
+      "conversions24h": null,
+      "spooferDownloads24h": null,
+      "autoUploads24h": null,
+      "maxFileSizeMb": 50,
+      "maxDurationSeconds": 1800,
+      "maxBatch": 100,
+      "speedControl": true,
+      "speedRange": "0.25x - 4.0x",
+      "robloxGroupUpload": true,
+      "historyDays": null,
+      "prioritySupport": true,
+      "badge": "LIFETIME VIP",
+      "badgeBg": "bg-amber-500 text-black",
+      "popular": false,
+      "iconSrc": "/saturn-assets/images/pricing/icon2.svg",
+      "descriptionId": "Sekali bayar aktif selamanya tanpa biaya langganan bulanan. Akses VIP tertinggi.",
+      "descriptionEn": "One-time payment for permanent VIP access with zero recurring subscription fees.",
+      "periodTextId": "/ seumur hidup",
+      "periodTextEn": "/ lifetime",
+      "dailyRateTextId": "AKSES PERMANEN",
+      "dailyRateTextEn": "PERMANENT ACCESS",
+      "featuresId": [
+        "Akses VIP Permanen Seumur Hidup",
+        "100x Bulk Audio Conversions",
+        "Roblox Auto-Upload Prioritas Paling Tinggi",
+        "Semua Pembaruan & Fitur Baru Otomatis Terbuka",
+        "Dedicated Support VIP 24/7",
+        "Role Eksklusif Lifetime di Discord"
+      ],
+      "featuresEn": [
+        "Permanent VIP Access Without Expiration",
+        "100x Bulk Audio Conversions",
+        "Highest Priority Roblox Upload Queue",
+        "All Future Feature Updates Unlocked",
+        "Dedicated 24/7 VIP Support",
+        "Exclusive Lifetime Role in Discord"
+      ],
+      "featuresList": [
+        {
+          "textId": "Akses VIP Permanen Tanpa Kedaluwarsa",
+          "textEn": "Permanent VIP Access Without Expiry",
+          "included": true
+        },
+        {
+          "textId": "100x Bulk Audio Batch Conversions",
+          "textEn": "100x Bulk Audio Batch Conversions",
+          "included": true
+        },
+        {
+          "textId": "Roblox Upload Antrean Tertinggi Server",
+          "textEn": "Highest Priority Upload Queue",
+          "included": true
+        },
+        {
+          "textId": "Unlimited Audio Splitting & Parts",
+          "textEn": "Unlimited Audio Splitting & Parts",
+          "included": true
+        },
+        {
+          "textId": "Roblox Group Universe Upload Penuh",
+          "textEn": "Full Group Universe Upload",
+          "included": true
+        },
+        {
+          "textId": "Semua Fitur Baru Otomatis Terbuka",
+          "textEn": "All Future Features Unlocked",
+          "included": true
+        },
+        {
+          "textId": "Role Eksklusif Lifetime VIP di Discord",
+          "textEn": "Exclusive Lifetime Discord Role",
+          "included": true
+        },
+        {
+          "textId": "Dedicated Support VIP 24/7 One-to-One",
+          "textEn": "24/7 One-to-One Dedicated Support",
+          "included": true
+        }
+      ]
+    }
+  },
+  "comparison": {
+    "titleId": "Compare features of our plans",
+    "titleEn": "Compare features of our plans",
+    "subtitleId": "Bandingkan seluruh spesifikasi paket untuk memilih opsi terbaik sesuai kebutuhan Anda.",
+    "subtitleEn": "Compare all plan specifications to choose the best option for your needs.",
+    "columns": [
+      "free",
+      "daily",
+      "weekly",
+      "monthly",
+      "lifetime"
+    ],
+    "rows": [
+      {
+        "nameId": "Harga Paket",
+        "nameEn": "Price",
+        "free": "Rp 0",
+        "daily": "Rp 15.000",
+        "weekly": "Rp 70.000",
+        "monthly": "Rp 140.000",
+        "lifetime": "Rp 1.000.000"
+      },
+      {
+        "nameId": "Masa Aktif",
+        "nameEn": "Duration",
+        "free": "Selamanya",
+        "daily": "1 Hari (24 Jam)",
+        "weekly": "7 Hari",
+        "monthly": "30 Hari",
+        "lifetime": "Permanen VIP"
+      },
+      {
+        "nameId": "Konversi Audio 24 Jam",
+        "nameEn": "Audio Conversions",
+        "free": "5 Audio",
+        "daily": "Unlimited (Fair-use)",
+        "weekly": "Unlimited (Fair-use)",
+        "monthly": "Unlimited (Fair-use)",
+        "lifetime": "Unlimited (Fair-use)"
+      },
+      {
+        "nameId": "Batas Ukuran File",
+        "nameEn": "Max File Size",
+        "free": "10 MB",
+        "daily": "20 MB",
+        "weekly": "30 MB",
+        "monthly": "50 MB",
+        "lifetime": "50 MB"
+      },
+      {
+        "nameId": "Roblox Auto-Upload",
+        "nameEn": "Roblox Auto-Upload",
+        "free": "5x / 24 Jam",
+        "daily": "Langsung Kredensial",
+        "weekly": "User & Group Universe",
+        "monthly": "User & Group Universe",
+        "lifetime": "Prioritas Paling Tinggi"
+      },
+      {
+        "nameId": "Roblox Group Universe Upload",
+        "nameEn": "Group Universe Upload",
+        "free": "-",
+        "daily": "Ya",
+        "weekly": "Ya",
+        "monthly": "Ya",
+        "lifetime": "Ya"
+      },
+      {
+        "nameId": "Audio Splitter (Part Splitting)",
+        "nameEn": "Audio Splitter",
+        "free": "Dasar",
+        "daily": "Otomatis",
+        "weekly": "Multi-Part",
+        "monthly": "Unlimited Parts",
+        "lifetime": "Unlimited Parts"
+      },
+      {
+        "nameId": "Batch Processing",
+        "nameEn": "Batch Audio Processing",
+        "free": "1 Lagu",
+        "daily": "1 Lagu",
+        "weekly": "10 Lagu Sekaligus",
+        "monthly": "50 Lagu Sekaligus",
+        "lifetime": "100 Lagu Sekaligus"
+      },
+      {
+        "nameId": "Kecepatan Antrean",
+        "nameEn": "Queue Speed",
+        "free": "Standar",
+        "daily": "Standar",
+        "weekly": "Fast Priority",
+        "monthly": "Dedicated High-Speed",
+        "lifetime": "VIP Highest Priority"
+      },
+      {
+        "nameId": "Role Server Discord",
+        "nameEn": "Discord Role",
+        "free": "Member",
+        "daily": "Role Starter",
+        "weekly": "Role 7 Days",
+        "monthly": "Role 30 Days",
+        "lifetime": "Role Lifetime VIP"
+      },
+      {
+        "nameId": "Layanan Support",
+        "nameEn": "Support Service",
+        "free": "Komunitas Publik",
+        "daily": "Prioritas Komunitas",
+        "weekly": "Prioritas Komunitas",
+        "monthly": "Dedicated Support",
+        "lifetime": "One to One VIP 24/7"
+      },
+      {
+        "nameId": "Two-Factor Security",
+        "nameEn": "Two-Factor Security",
+        "free": "Ya",
+        "daily": "Ya",
+        "weekly": "Ya",
+        "monthly": "Ya",
+        "lifetime": "Ya"
+      }
+    ]
+  }
+}
